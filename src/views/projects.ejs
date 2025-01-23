@@ -107,19 +107,19 @@ https://templatemo.com/tm-568-digimedia
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-            <h1>Hello Project</h1>
+            <h1>Projects</h1>
             <% projects.map((project)=>{ %>
-                <h5><%=project.projectTitle %></h5>
+                <h5><a href="/projects/<%=project.id%>"><%=project.projectTitle %></a></h5>
                 <p><%=project.projectDescription %></p>
             <% }) %>
-            <h6>Our Portofolio</h6>
+            <!-- <h6>Our Portofolio</h6>
             <h4>See Our Recent <em>Projects</em></h4>
-            <div class="line-dec"></div>
+            <div class="line-dec"></div> -->
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+    <!-- <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
       <div class="row">
         <div class="col-lg-12">
           <div class="loop owl-carousel">
@@ -191,7 +191,7 @@ https://templatemo.com/tm-568-digimedia
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
 

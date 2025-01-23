@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "projectTitle": "Customer1",
+        "projectDescription": "Our First Customer",
+        "projectPeriod": "1 Month"
+    },
+    {
+        "id": 1,
+        "projectTitle": "Customer2",
+        "projectDescription": "Our Second Customer",
+        "projectPeriod": "2 Month"
+    },
+    {
+        "id": 2,
+        "projectTitle": "Customer3",
+        "projectDescription": "Our Customer3",
+        "projectPeriod": "3 Month"
+    },
+    {
+        "id": 3,
+        "projectTitle": "Customer4",
+        "projectDescription": "Our Customer4",
+        "projectPeriod": "4 Month"
+    }
+]
